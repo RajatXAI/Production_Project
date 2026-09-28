@@ -261,7 +261,7 @@ const Register = () => {
                   })}
                 />
 
-                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                <p className="text-xs font-medium text-red-500 mt-1 min-h-[16px]">
                   {errors.fullname?.message}
                 </p>
               </div>
@@ -296,7 +296,7 @@ const Register = () => {
                   })}
                 />
 
-                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                <p className="text-xs font-medium text-red-500 mt-1 min-h-[16px]">
                   {errors.email?.message}
                 </p>
               </div>
@@ -331,7 +331,7 @@ const Register = () => {
                   })}
                 />
 
-                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                <p className="text-xs font-medium text-red-500 mt-1 min-h-[16px]">
                   {errors.contact?.message}
                 </p>
               </div>
@@ -381,7 +381,7 @@ const Register = () => {
 
                 </div>
 
-                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                <p className="text-xs font-medium text-red-500 mt-1 min-h-[16px]">
                   {errors.password?.message}
                 </p>
               </div>
