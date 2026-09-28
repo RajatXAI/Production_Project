@@ -229,7 +229,7 @@ const Register = () => {
             <form
               onSubmit={handleSubmit(formSubmit)}
               autoComplete="on"
-              className="flex flex-col gap-3"
+              className="flex flex-col gap-1"
             >
 
               {/* =========================
@@ -261,11 +261,9 @@ const Register = () => {
                   })}
                 />
 
-                {errors.fullname && (
-                  <p className="text-xs text-red-500 mt-1">
-                    {errors.fullname.message}
-                  </p>
-                )}
+                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                  {errors.fullname?.message}
+                </p>
               </div>
 
               {/* =========================
@@ -298,11 +296,9 @@ const Register = () => {
                   })}
                 />
 
-                {errors.email && (
-                  <p className="text-xs text-red-500 mt-1">
-                    {errors.email.message}
-                  </p>
-                )}
+                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                  {errors.email?.message}
+                </p>
               </div>
 
               {/* =========================
@@ -335,11 +331,9 @@ const Register = () => {
                   })}
                 />
 
-                {errors.contact && (
-                  <p className="text-xs text-red-500 mt-1">
-                    {errors.contact.message}
-                  </p>
-                )}
+                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                  {errors.contact?.message}
+                </p>
               </div>
 
               {/* =========================
@@ -387,11 +381,9 @@ const Register = () => {
 
                 </div>
 
-                {errors.password && (
-                  <p className="text-xs text-red-500 mt-1">
-                    {errors.password.message}
-                  </p>
-                )}
+                <p className="text-[11px] text-red-500 mt-1 min-h-[16px]">
+                  {errors.password?.message}
+                </p>
               </div>
 
               {/* =========================
